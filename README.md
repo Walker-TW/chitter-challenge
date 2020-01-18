@@ -1,3 +1,20 @@
+## Notes on Progress ##
+Created database tables user & peeps
+
+Contain in user are 5 columns
+- id- autoincramates to show user id (might be an issue with test autoupdate)
+- email- stored as VARCHAR(255)
+- passwrd - stored as VARCHAR(255)
+- name - stored as VARCHAR(255)
+- username - stored as VARCHAR(255)
+
+Contained in peep table are 5 columns
+- id- autoincramates to show peep id (might be an issue with test autoupdate)
+- user_id foreign key stored in VARCHAR(255)
+- created_at - should at initilization of peep autocreate a time stamp in TIMESTAMP format ie YYYY-MM-DD HH:MM:SS
+
+- ALSO added filepath requirements and named classes. Everything is required and bundled.
+
 Chitter Challenge
 =================
 
