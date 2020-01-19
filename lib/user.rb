@@ -14,12 +14,15 @@ class User
 
   def self.all
     if ENV['ENVIROMENT'] == 'test'
-      connection = PG.connect(dbname: 'bookmark_manager_test')
+      connection = PG.connect(dbname: 'chitter_test')
     else
-      connection = PG.connect(dbname: 'bookmark_manager')
+      connection = PG.connect(dbname: 'chitter')
     end
 
     result = connection.exec('SELECT * FROM users')
+    result.map { |user| User.new(email: user["email"], username: user["username"], realname: user["realname"],
+     passwrd: user["passwrd"])}
+
   end
 
   def self.create(email:, username:, realname:, passwrd:)

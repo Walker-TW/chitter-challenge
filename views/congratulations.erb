@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html>
+<style>
+body {
+    background-color: #ffff70;
+  max-width: 500px;
+  margin: auto;
+}
+</style>
 <body>
 
 <h1> Congratulations <%= session[:username] %> you signed up for Chitter! <h1>
@@ -9,5 +16,7 @@
 <form action="/chitter">
     <input type="submit" value="Back to Chitter" />
 </form>
+<img src="https://image.flaticon.com/icons/svg/1596/1596833.svg">
+
 </body>
 </html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!DOCTYPE html>
+<html>
+<style >
+body {
+  background-color: #ffff70;
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+<body>
+<h1> <p><ins> Lets see whats Peepin' </ins><p></h1>
+
+<% @peep.each do |peep| %>
+<h2>
+  <li>
+    "<%= peep.peep.upcase%>" 
+    <h5> <p> <ins><%= peep.created_at[11..18]%> <%= peep.created_at[5...10]%>-<%= peep.created_at[0...4]%></ins><p> </h5> 
+    <%# Peeper = <% @user.each do |user| %>
+      <%# <%=user.id%> 
+    <%# <% end %>
+    </a>
+  </li>
+  <% end %>
+</h2>
+<img src="https://image.flaticon.com/icons/svg/1596/1596833.svg">
+
+</body>
+</html>
