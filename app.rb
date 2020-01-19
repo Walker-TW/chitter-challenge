@@ -19,9 +19,14 @@ class Chitter < Sinatra::Base
   end
 
   post '/chitter/congratulations' do
-    erb :congratulations
+    User.create(email: params[:email], username: params[:username], realname: params[:realname], passwrd: params[:passwrd])
+    session[:username] = params[:username]
+    redirect '/chitter/congratulations'
   end
 
+  get '/chitter/congratulations' do
+    erb :congratulations
+  end
 
   run! if app_file == $0
 end

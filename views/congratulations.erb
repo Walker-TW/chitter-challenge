@@ -2,7 +2,12 @@
 <html>
 <body>
 
-<h1> Congratulations <%= params[:username] %> you signed up for Chitter! <h1>
+<h1> Congratulations <%= session[:username] %> you signed up for Chitter! <h1>
 
+<h2> Let's get tweeting...sorry peeping...</h2>
+
+<form action="/chitter">
+    <input type="submit" value="Back to Chitter" />
+</form>
 </body>
 </html>

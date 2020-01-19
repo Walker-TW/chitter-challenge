@@ -15,6 +15,11 @@ Contained in peep table are 5 columns
 
 - ALSO added filepath requirements and named classes. Everything is required and bundled.
 
+## Notes on Features ##
+
+- Can add and access users by clicking the Sign Up button on the chitter homepage.
+  - When a user is created all information is stored in user column and when returning to the page will be welcomed on the homepage.
+
 Chitter Challenge
 =================
 
