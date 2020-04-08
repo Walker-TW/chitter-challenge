@@ -1,4 +1,4 @@
-## Chitter Challenge ##
+## Chitter ##
 
 In which I created a working twitter clone named Chitter. Based of the cockatoos that I grew up with Chitter will take all tweets given by multiple users and then return them as capitals.
 
