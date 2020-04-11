@@ -8,24 +8,28 @@ body {
   background-color: #ffff70;
   max-width: 500px;
   margin: auto;
+  align-items: center;
+	justify-content: center;
+	text-align: center;
+  color: black;
 }
 </style>
 <body>
-<h1> <p><ins> Lets see whats Peepin' </ins><p></h1>
+<img src="https://image.flaticon.com/icons/svg/1596/1596833.svg" height="50" width="50">
 
+<h1> <p><ins> Lets see whats Peepin' </ins><p></h1>
 <% @peep.each do |peep| %>
-<h2>
+<h3>
   <li>
+  <%=p @user%>
     "<%= peep.peep.upcase%>" 
-    <h5> <p> <ins><%= peep.created_at[11..18]%> <%= peep.created_at[5...10]%>-<%= peep.created_at[0...4]%></ins><p> </h5> 
-    <%# Peeper = <% @user.each do |user| %>
-      <%# <%=user.id%> 
-    <%# <% end %>
+    <h5> <p> <ins><%= peep.created_at[11..18]%> <%= peep.created_at[5...10]%>-<%= peep.created_at[0...4]%></ins><p>
+      Peeper = <%= peep.user_id%>
+    </h5> 
     </a>
   </li>
   <% end %>
-</h2>
-<img src="https://image.flaticon.com/icons/svg/1596/1596833.svg">
+</h3>
 
 </body>
 </html>

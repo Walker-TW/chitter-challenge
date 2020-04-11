@@ -21,7 +21,8 @@ class User
 
     result = connection.exec('SELECT * FROM users')
     result.map { |user| User.new(email: user["email"], username: user["username"], realname: user["realname"],
-     passwrd: user["passwrd"])}
+    passwrd: user["passwrd"])
+    }
 
   end
 

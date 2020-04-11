@@ -2,12 +2,18 @@
 <html>
 <style>
 body {
-    background-color: #ffff70;
+  background-color: #ffff70;
   max-width: 500px;
   margin: auto;
+  align-items: center;
+	justify-content: center;
+	text-align: center;
+  color: black;
 }
 </style>
 <body>
+
+<img src="https://image.flaticon.com/icons/svg/1596/1596833.svg" height="50" width="50">
 
 <h1> Congratulations <%= session[:username] %> you signed up for Chitter! <h1>
 
@@ -16,7 +22,6 @@ body {
 <form action="/chitter">
     <input type="submit" value="Back to Chitter" />
 </form>
-<img src="https://image.flaticon.com/icons/svg/1596/1596833.svg">
 
 </body>
 </html>
