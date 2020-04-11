@@ -8,7 +8,7 @@ You can also sign up to Chitter, store you own peeps and even create some to be 
 
 This was all created using an MVC model and has been built on the front-end using HTML, controller side using Sinatra and Ruby and finally the database's are built using SQL and interfaced with via the rubygem 'pg'
 
-To run Chitter you need to create the databases stored below (I will leave the details for the SQL code below) and rund bundle within the terminal. Finally launch the app either through the command 'rackup' or 'ruby app.rb'.
+To run Chitter you need to create the databases stored below (I will leave the details for the SQL code below) and run bundle within the terminal. Finally launch the app either through the command 'rackup' or 'ruby app.rb'.
 
 AND ENJOY!
 
@@ -58,3 +58,7 @@ Contained in peep table are 5 columns
 - Can add and access users by clicking the Sign Up button on the chitter homepage.
   - When a user is created all information is stored in user column and when returning to the page will be welcomed on the homepage.
 - Can post peeps (tweets) and see them appear on the views page
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
