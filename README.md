@@ -1,3 +1,29 @@
+
+
+<br />
+<div align="center">
+
+[![MIT License][license-shield]][license-url]
+[![Ruby commits][rubyCommits]](https://sourcerer.io/walker-tw)
+[![Rspec][rspec]](https://sourcerer.io/walker-tw)
+[![CSS commits][cssCommits]](https://sourcerer.io/walker-tw)
+[![HTML commits][htmlCommits]](https://sourcerer.io/walker-tw)
+[![postgresql commits][sqlCommits]](https://sourcerer.io/walker-tw)
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+</div>
+<p align="center">
+  <a href="https://github.com/walker-tw/chitter">
+      <img src="https://image.flaticon.com/icons/svg/1596/1596833.svg" width="80" height="80" alt="icon">
+  </a>
+
+  <h3 align="center">Chitter</h3>
+
+  <p align="center">
+    Chitter will take all tweets given by multiple users and then return them as capitals.    
+  </p>
+</p>
+
 ## Chitter ##
 
 In which I created a working twitter clone named Chitter. Based of the cockatoos that I grew up with Chitter will take all tweets given by multiple users and then return them as capitals.
@@ -62,3 +88,13 @@ Contained in peep table are 5 columns
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/thomas-w-walker 
+[rubyCommits]: https://img.shields.io/badge/Ruby-red.svg
+[rspec]: https://img.shields.io/badge/Rspec-yellow.svg
+[cssCommits]: https://img.shields.io/badge/CSS-green.svg
+[htmlCommits]: https://img.shields.io/badge/HTML-orange.svg
+[sqlCommits]: https://img.shields.io/badge/Postgresql-blue.svg
