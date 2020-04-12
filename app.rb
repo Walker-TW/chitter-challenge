@@ -13,6 +13,7 @@ class Chitter < Sinatra::Base
   get '/chitter/view' do
     @peep = Peep.all.reverse
     @user = User.all
+    p @user
     erb :view
   end
 

@@ -21,10 +21,9 @@ body {
 <% @peep.each do |peep| %>
 <h3>
   <li>
-  <%=p @user%>
     "<%= peep.peep.upcase%>" 
     <h5> <p> <ins><%= peep.created_at[11..18]%> <%= peep.created_at[5...10]%>-<%= peep.created_at[0...4]%></ins><p>
-      Peeper = <%= peep.user_id%>
+      Screams: <%= @user[peep.user_id.to_i].username%>
     </h5> 
     </a>
   </li>
