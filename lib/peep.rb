@@ -18,7 +18,7 @@ class Peep
 
     result = connection.exec('SELECT * FROM peeps')
     # name_for_user = connection.exec('SELECT users.username FROM peeps INNER JOIN users ON peeps.user_id = users.id')
-    result.map { |peep| Peep.new(created_at: peep["created_at"], user_id: peep['user_id'], peep: peep["peep"])}
+    result.map { |peep| Peep.new(created_at: peep["created_at"], user_id: peep['user_id'], peep: peep["peep"]) }
   end
 
   def self.create(user_id:, peep:)
