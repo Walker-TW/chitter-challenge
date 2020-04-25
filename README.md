@@ -18,7 +18,7 @@
   <h3 align="center">Chitter</h3>
 
   <p align="center">
-    Chitter will take all tweets given by multiple users and then displays them as capitals.    
+    Chitter will take all tweets given by multiple users and then displays them as capitals.     
   </p>
 </p>
 
