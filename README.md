@@ -46,7 +46,7 @@ This was all created using an MVC model and has been built on the front-end usin
 bundle
 ```
 
-3. Finally launch the app either through the command 'rackup' or 'ruby app.rb'.
+3. Finally launch the app either through the command 'rackup' or 'ruby app.rb'. 
 
 ```sh
 rackup
