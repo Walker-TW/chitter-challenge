@@ -5,7 +5,7 @@
 [![Ruby commits][rubyCommits]](https://sourcerer.io/walker-tw)
 [![Rspec][rspec]](https://sourcerer.io/walker-tw)
 [![CSS commits][cssCommits]](https://sourcerer.io/walker-tw)
-[![HTML commits][htmlCommits]](https://sourcerer.io/walker-tw)
+[![HTML commits][htmlCommits]](https://sourcerer.io/walker-tw) 
 [![postgresql commits][sqlCommits]](https://sourcerer.io/walker-tw)
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
