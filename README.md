@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
 
-[![MIT License][license-shield]][license-url]
+[![MIT License][license-shield]][license-url] 
 [![Ruby commits][rubyCommits]](https://sourcerer.io/walker-tw)
 [![Rspec][rspec]](https://sourcerer.io/walker-tw)
 [![CSS commits][cssCommits]](https://sourcerer.io/walker-tw)
